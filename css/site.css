@@ -58,7 +58,7 @@ main {
 .jap-pics {
     background-image: url('../images/scene5-400.jpg');
     background-repeat: no-repeat;
-    height: 50px;
+    height: 190px;
     background-size:100%;
 }
 
@@ -89,7 +89,7 @@ main {
     .jap-pics {
         background-image:url('../images/scene5-800.jpg');
         background-repeat: no-repeat;
-        height: 50px;        
+        height: 290px;        
     }
 
     .jap-pics-6 {
@@ -117,7 +117,7 @@ main {
     .jap-pics {
         background-image:url('../images/scene5-800.jpg');
         background-repeat: no-repeat;
-        height: 50px;
+        height: 330px;
     }    
 
     .jap-pics-6 {

@@ -56,7 +56,7 @@ main {
 }
 
 .jap-pics {
-    background-image: url('../images/scene6-400.jpg');
+    background-image: url('../images/scene5-400.jpg');
     background-repeat: no-repeat;
     height: 120px;
     background-size:100%;
@@ -87,9 +87,9 @@ main {
     }
 
     .jap-pics {
-        background-image:url('../images/scene6-800.jpg');
+        background-image:url('../images/scene5-800.jpg');
         background-repeat: no-repeat;
-        height: 80px;        
+        height: 290px;        
     }
 
     .jap-pics-6 {
@@ -115,9 +115,9 @@ main {
     }  
     
     .jap-pics {
-        background-image:url('../images/scene6-800.jpg');
+        background-image:url('../images/scene5-800.jpg');
         background-repeat: no-repeat;
-        height: 80px;
+        height: 330px;
     }    
 
     .jap-pics-6 {
@@ -143,7 +143,7 @@ main {
     }       
 
     .jap-pics {
-        background-image:url('../images/scene6-1000.jpg');
+        background-image:url('../images/scene5-1000.jpg');
         background-repeat: no-repeat;
         height: 350px;
     }

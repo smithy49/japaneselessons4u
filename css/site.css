@@ -40,19 +40,19 @@ main {
 .welcome-carousel-image1 {
     box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
     background-image:url('../images/scene400.jpg');
-    height: 160px; /* was 225px */
+    height: 160px; /* was 225px, 206px */
 }
 
 .welcome-carousel-image2 {
     box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
     background-image:url('../images/scene2-400.jpg');
-    height: 206px;
+    height: 160px;
 }
 
 .welcome-carousel-image3 {
     box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
     background-image:url('../images/scene4-400.jpg');
-    height:206px;
+    height:160px;
 }
 
 .jap-pics {
@@ -89,85 +89,85 @@ main {
 @media (min-width: 768px) { 
     .welcome-carousel-image1 {
         background-image:url('../images/scene800.jpg');
-        height: 160px; /* was 450, 296 */
+        height: 160px; /* was 450, 296, 290 */
     } 
 
     .welcome-carousel-image2 {
         background-image:url('../images/scene2-800.jpg');
-        height: 290px;
+        height: 160px;
     }     
 
     .welcome-carousel-image3 {
         background-image:url('../images/scene4-800.jpg');
-        height: 290px;
+        height: 160px;
     }
 
     .jap-pics {
         background-image:url('../images/scene5-800.jpg');
         background-repeat: no-repeat;
-        height: 290px;        
+        height: 160px;        
     }
 
     .jap-pics-6 {
         background-image:url('../images/scene6-800.jpg');
         background-repeat: no-repeat;
-        height: 290px;        
+        height: 160px;        
     }    
 }
 
 @media (min-width: 992px) { 
     .welcome-carousel-image1 {
         background-image:url('../images/scene800.jpg');
-        height: 330px;
+        height: 200px; /* was 330px */
     } 
     .welcome-carousel-image2 {
         background-image:url('../images/scene2-800.jpg');
-        height: 330px;
+        height: 200px;
     }     
 
     .welcome-carousel-image3 {
         background-image:url('../images/scene4-800.jpg');
-        height: 330px;
+        height: 200px;
     }  
     
     .jap-pics {
         background-image:url('../images/scene5-800.jpg');
         background-repeat: no-repeat;
-        height: 330px;
+        height: 200px;
     }    
 
     .jap-pics-6 {
         background-image:url('../images/scene6-800.jpg');
         background-repeat: no-repeat;
-        height: 330px;
+        height: 200px;
     }    
 }
 
 @media (min-width: 1200px) { 
     .welcome-carousel-image1 {
         background-image:url('../images/scene1000.jpg');
-        height: 420px;
+        height: 250px; /* was 420px */
     } 
     .welcome-carousel-image2 {
         background-image:url('../images/scene2-1000.jpg');
-        height: 420px;
+        height: 250px;
     }     
 
     .welcome-carousel-image3 {
         background-image:url('../images/scene4-1000.jpg');
-        height: 420px;
+        height: 250px;
     }       
 
     .jap-pics {
         background-image:url('../images/scene5-1000.jpg');
         background-repeat: no-repeat;
-        height:  420px;
+        height:  250px;
     }
 
     .jap-pics-6 {
         background-image:url('../images/scene6-1000.jpg');
         background-repeat: no-repeat;
-        height: 420px;
+        height: 250px;
     }    
 }
 

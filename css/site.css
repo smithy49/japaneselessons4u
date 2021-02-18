@@ -67,7 +67,6 @@ main {
     background-image: url('../images/scene6-400.jpg');
     background-repeat: no-repeat;
     height: 160px;
-    /* min-width: 400px */
     background-size:100%;
 }
 
@@ -183,21 +182,12 @@ main {
   justify-content: space-between;
 }
 
-/* Create two equal columns */
-.column-new {
-  flex: 50%;
-}
-
 .small-font {
     font-size: .7rem;
 }
 
 .my-primary {
     background-color:#404242 !important;
-}
-
-textarea {
-    resize: both;
 }
 
 .para {
@@ -216,11 +206,6 @@ textarea {
     margin-bottom: 100px;
 }
 
-/* p {
-    font-size: 2.1rem;
-    line-height: 1.9rem;
-} */
-
 .m-b {
     margin-bottom: 100px;
 }
@@ -228,6 +213,10 @@ textarea {
 h1 {
     color: orange;
     font-size: 1.8rem;
+}
+
+.pipe {
+    color: orange;    
 }
 
 .hdg-colour {

@@ -89,7 +89,7 @@ main {
 @media (min-width: 768px) { 
     .welcome-carousel-image1 {
         background-image:url('../images/scene800.jpg');
-        height: 290px; /* was 450, 296 */
+        height: 160px; /* was 450, 296 */
     } 
 
     .welcome-carousel-image2 {

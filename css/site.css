@@ -66,7 +66,7 @@ main {
 .jap-pics-6 {
     background-image: url('../images/scene6-400.jpg');
     background-repeat: no-repeat;
-    height: 190px;
+    height: 160px;
     /* min-width: 400px */
     background-size:100%;
 }
@@ -78,6 +78,12 @@ main {
         /* height: 460px;  */
         height: 160px;       
     }
+
+    .jap-pics-6 {
+        background-image: url('../images/scene6-800.jpg');
+        background-repeat: no-repeat;
+        height: 160px;
+    }    
 }
 
 @media (min-width: 768px) { 

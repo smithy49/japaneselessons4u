@@ -8,9 +8,8 @@ html {
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body {
-    /* background-color:#4a5e63; */
-    background-color:#546468;
-    /* background-color: rgb(97, 75, 57); */
+    background: rgb(81,80,111);
+    background: linear-gradient(90deg, rgba(81,80,111,0.908000700280112) 0%, rgba(134,109,89,0.8323704481792717) 73%, rgba(132,169,176,1) 100%);    
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     height: 100%;

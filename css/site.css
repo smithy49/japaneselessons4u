@@ -59,7 +59,6 @@ main {
     background-image: url('../images/scene5-400.jpg');
     background-repeat: no-repeat;
     height: 160px;
-    /* height: 360px; */    
     background-size:100%;
 }
 
@@ -68,26 +67,12 @@ main {
     background-repeat: no-repeat;
     height: 160px;
     background-size:100%;
-    /* width: 100%;
-    height:100%; */
-    /* object-fit:cover; */
-    /* object-position:bottom right; */
     background-position: 50% 84%;
 }
 
-/* col-12 img {
-    width: 100%;
-    height: auto;
-    display: block;
-} */
-
-/* .col-12 img.scene-6  { */
 .scene-6  {    
-    /* width: 400px; */
-    /* height: auto; */
     width: auto;
     height: 140px;
-    /* display: block; */
 }
 
 @media (min-width: 576px) {
@@ -210,7 +195,7 @@ main {
 }
 
 .my-primary {
-    background-color:#404242 !important;
+    background-color: #525151 !important;
 }
 
 .para {
@@ -291,7 +276,7 @@ div h1 {
 a[href^="http"] {
     /* By File:Icon External Link.png: anonymous at MediaWiki (or someone else, whose work MediaWiki used) uploaded to Commons by Metalhead64derivative work MareklugNon-pixel version: TMg - File:Icon External Link.png, GPL, https://commons.wikimedia.org/w/index.php?curid=5949301 */
     background: url(../images/Icon_External_Link.svg) no-repeat right;
-    padding: 16px;
+    padding-right: 16px;
 }
 
 a[href*="http"]::after {
@@ -299,13 +284,12 @@ a[href*="http"]::after {
     content: " (goes off site)";
 }
 
-
 #sticky-footer {
-  background: rgb(73, 73, 73);
-  position: fixed;
-  width: 100%;
-  left: 0;
-  bottom: 0;
+    background: #525151;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
 }
 
 input:-webkit-autofill,

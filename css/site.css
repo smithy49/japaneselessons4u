@@ -285,7 +285,11 @@ a[href*="http"]::after {
 }
 
 #sticky-footer {
-    background: #525151;
+    /* background: #525151; */
+    /* background: rgb(45,26,31);
+    background: linear-gradient(90deg, rgba(45,26,31,.9800) 42%, rgba(132,140,176,0.9472163865546218) 100%, rgba(54,55,57,1) 100%); */
+    background: rgb(45,26,31);
+    background: linear-gradient(90deg, rgba(45,26,31,0.908000700280112) 45%, rgba(96,67,95,1) 100%, rgba(54,55,57,1) 100%);
     position: fixed;
     width: 100%;
     left: 0;

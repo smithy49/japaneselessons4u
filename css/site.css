@@ -9,7 +9,7 @@ html {
 
 body {
     background: rgb(81,80,111);
-    background: linear-gradient(90deg, rgba(81,80,111,0.908000700280112) 0%, rgba(134,109,89,0.8323704481792717) 73%, rgba(132,169,176,1) 100%);    
+    background: linear-gradient(90deg, rgba(81,80,111,0.908000700280112) 0%, rgba(134,109,89,0.8323704481792717) 73%, rgba(132,169,176,1) 100%);     
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     height: 100%;
@@ -290,6 +290,8 @@ a[href*="http"]::after {
     background: linear-gradient(90deg, rgba(45,26,31,.9800) 42%, rgba(132,140,176,0.9472163865546218) 100%, rgba(54,55,57,1) 100%); */
     background: rgb(45,26,31);
     background: linear-gradient(90deg, rgba(45,26,31,0.908000700280112) 45%, rgba(96,67,95,1) 100%, rgba(54,55,57,1) 100%);
+    /* background: rgb(58,53,84);
+    background: linear-gradient(90deg, rgba(58,53,84,0.9808298319327731) 11%, rgba(110,101,153,0.9808298319327731) 95%); */
     position: fixed;
     width: 100%;
     left: 0;

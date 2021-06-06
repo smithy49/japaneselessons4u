@@ -75,6 +75,18 @@ main {
     height: 140px;
 }
 
+.logo {
+    background-color: rgb(66, 134, 66); 
+    padding: 0 6px; 
+    border-radius: 3px; 
+    font-size: 1.1rem;
+}
+
+.logo-2 {
+    background-color: grey; 
+    color: white;
+}
+
 @media (min-width: 576px) {
     .jap-pics {
         background-image:url('../images/scene5-800.jpg');
@@ -201,7 +213,8 @@ main {
 .para {
     font-size: 1.0rem;
     background-color: whitesmoke;
-    line-height: 1.625rem;
+    /* line-height: 1.625rem; */
+    line-height: 1.8rem;
     padding: 10px;
     box-shadow: 9px 10px 11px -2px rgba(0,0,0,0.69);
     border-left: 3px solid ;
@@ -233,7 +246,9 @@ h1 {
 
 @media (min-width: 768px) { 
     .para {
-        font-size: 1.2rem;
+        /* font-size: 1.2rem; */
+        font-size: 1.1rem;
+        /* line-height: 1.9rem; */
         line-height: 1.9rem;
         margin-bottom: 90px;
     }

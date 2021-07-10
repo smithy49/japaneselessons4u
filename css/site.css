@@ -89,6 +89,12 @@ main {
     font-size: .9em;
 }
 
+section > h4 {
+    color: rgb(42, 65, 194);
+    text-align: center;
+    font-size: 1.2rem;
+}
+
 @media (min-width: 576px) {
     .jap-pics {
         background-image:url('../images/scene5-800.jpg');
@@ -257,6 +263,9 @@ h1 {
 
     h1 {
         font-size: 2.2rem;
+    }
+    section > h4 {        
+    font-size: 1.5rem;
     }
 }
 

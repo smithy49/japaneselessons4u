@@ -8,8 +8,7 @@ html {
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body {
-    background: rgb(81,80,111);
-    background: linear-gradient(90deg, rgba(81,80,111,0.908000700280112) 0%, rgba(134,109,89,0.8323704481792717) 73%, rgba(132,169,176,1) 100%);     
+    background-color: rgb(240, 240, 240);
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     height: 100%;
@@ -86,7 +85,7 @@ main {
     background-color: rgba(8, 83, 24, 0.5);
     color: white;
     border-radius: 4px;
-    font-size: .9em;
+    font-size: .8em;
 }
 
 section > h4 {
@@ -219,12 +218,12 @@ section > h4 {
 
 .para {
     font-size: 1.0rem;
-    background-color: whitesmoke;
+    background-color: rgba(130, 202, 156, .3);
     line-height: 1.8rem;
     padding: 10px;
     box-shadow: 9px 10px 11px -2px rgba(0,0,0,0.69);
     border-left: 3px solid ;
-    border-color: orange;    
+    border-color:  #CA82B0;
     letter-spacing: 1px;
     margin-bottom: 64px;
 }
@@ -242,8 +241,8 @@ section p {
 }
 
 h1 {
-    color: orange;
-    font-size: 1.8rem;
+    color: #CA82B0;
+    font-size: 2.0rem;
 }
 
 .pipe {
@@ -262,7 +261,7 @@ h1 {
     }
 
     h1 {
-        font-size: 2.2rem;
+        font-size: 2.7rem;
     }
     section > h4 {        
     font-size: 1.5rem;
@@ -279,7 +278,7 @@ h1 {
 }
 
 h1, h3  {
-    text-shadow: 2px 2px 3px black;
+    text-shadow: 2px 3px 4px black;
 }
 
 .email-1 {
@@ -318,8 +317,7 @@ a[href*="http"]::after {
 }
 
 #sticky-footer {
-    background: rgb(45,26,31);
-    background: linear-gradient(90deg, rgba(45,26,31,0.908000700280112) 45%, rgba(96,67,95,1) 100%, rgba(54,55,57,1) 100%);
+    background-color: #4e4c4c ;
     position: fixed;
     width: 100%;
     left: 0;

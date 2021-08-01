@@ -218,7 +218,6 @@ section > h4 {
 
 .para {
     font-size: 1.0rem;
-    background-color: rgba(130, 202, 156, .3);
     line-height: 1.8rem;
     padding: 10px;
     box-shadow: 9px 10px 11px -2px rgba(0,0,0,0.69);
@@ -230,6 +229,15 @@ section > h4 {
 
 .para-home {
     margin-bottom: 100px;
+    background-color: rgba(130, 202, 156, .3);
+}
+
+.para-about {
+    background-color: rgba(226, 241, 255, .7);
+}
+
+.para-contact {
+    background-color: rgba(247, 217, 179, .3);
 }
 
 section p {

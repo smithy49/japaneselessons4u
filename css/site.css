@@ -94,6 +94,18 @@ section > h4 {
     font-size: 1.2rem;
 }
 
+section > h6 {
+    color: rgb(42, 65, 194);
+    text-align: left;
+    font-size: .9rem;
+    display: inline-block;
+    border-bottom: dotted 1px blue;
+}
+
+.cancellation {
+    font-size: .9rem;
+}
+
 @media (min-width: 576px) {
     .jap-pics {
         background-image:url('../images/scene5-800.jpg');

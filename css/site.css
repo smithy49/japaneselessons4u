@@ -88,16 +88,15 @@ main {
     font-size: .8em;
 }
 
-section > h4 {
-    color: rgb(42, 65, 194);
+section > h2 {
+    color: rgb(42, 61, 183);
     text-align: center;
-    font-size: 1.2rem;
 }
 
-section > h6 {
+section > h3 {
     color: rgb(42, 65, 194);
     text-align: left;
-    font-size: .9rem;
+    font-size: 1rem;
     display: inline-block;
     border-bottom: dotted 1px blue;
 }
@@ -261,7 +260,7 @@ section p {
 }
 
 h1 {
-    color: #CA82B0;
+    color: #B24188;
     font-size: 2.0rem;
 }
 
@@ -270,7 +269,7 @@ h1 {
 }
 
 .hdg-colour {
-    color: rgb(180, 119, 4);
+    color: rgb(105, 69, 2);
 }
 
 @media (min-width: 768px) { 
@@ -297,8 +296,12 @@ h1 {
     }
 }
 
-h1, h3  {
+/* h1, h3  {
     text-shadow: 2px 3px 4px black;
+} */
+
+h1 {
+    font-weight: bold;
 }
 
 .email-1 {
